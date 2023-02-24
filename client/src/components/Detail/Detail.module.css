@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: calc(100vh - 100px);
+}
+
+.detail_name {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  margin: 0;
+}
+
+.detail_img {
+  object-fit: cover;
+  object-position: top;
+  height: 1000px;
+  width: 100%;
+  border-radius: 0px;
+  margin-bottom: 20px;
+}
+
+.detail_body {
+  width: 1000px;
+  margin: auto;
+}
+
+.detail_text_justify {
+  text-align: justify;
+}
+
+.detail_crop_image {
+  width: 100%;
+}
+
+p {
+  text-align: start;
+}

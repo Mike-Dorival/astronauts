@@ -1,0 +1,19 @@
+.center_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  margin: auto;
+  width: 53%;
+}
+
+button {
+  background-color: #4CAF50;
+}
+
+button>a {
+  color: #fff;
+  text-decoration: none;
+}

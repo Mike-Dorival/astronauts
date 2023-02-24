@@ -1,0 +1,32 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px)
+}
+
+label {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+textarea {
+  margin-top: 15px;
+  background-color: none;
+  font-family: sans-serif;
+}
+
+.custom_input[type=text] {
+  background-color: white;
+  border: 3px solid #ccc;
+  color: black
+}
+
+.custom_input[type=text]:focus {
+  border: 3px solid #555;
+}
